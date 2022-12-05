@@ -45,8 +45,8 @@ a, b = b, a
 
 print(a, b)
 
-a = 123
-b = 321
+a = 12
+b = 32
 
 c = b
 b = a
