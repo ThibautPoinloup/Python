@@ -53,3 +53,22 @@ b = a
 a = c
 
 print(a, b)
+
+foo = "123"
+print(type(foo))
+
+#Permet de changer le type (str ---> int)
+foo = int(foo)
+print(type(foo))
+
+# Permet d'afficher un nombre entier
+foo = 2.5
+foo = int(foo)
+print(foo)
+
+foo = 2.71
+a = int(foo)
+b = foo - a
+
+print(a)
+print(b)
