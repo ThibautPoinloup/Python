@@ -55,3 +55,43 @@ print(result)
 result = 123 != 42
 print(result)
 
+# Encadrements
+my_number = random.randint(0, 100)
+print(my_number)
+result = 0 <= my_number < 50
+print(result)
+result = 50 < my_number <= 100
+print(result)
+
+#Opérateur and (et)
+result= True and False
+print(result)
+result= False and True
+print(result)
+result= True and True
+print(result)
+result= False and False
+print(result)
+
+result = bool(random.randint(0, 1)) and bool(random.randint(0, 1))
+print(result)
+# utilisation special des comparaison de grandeur
+result = "A" < "a"
+print(result)
+
+# Opérateur or (ou)
+result= True or False
+print(result)
+result= False or True
+print(result)
+result= True or True
+print(result)
+result= False or False
+print(result)
+
+#opérateur not (négation)
+result = not True
+print(result)
+result = not False
+print(result)
+
