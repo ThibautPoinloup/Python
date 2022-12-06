@@ -72,3 +72,13 @@ b = foo - a
 
 print(a)
 print(b)
+
+
+liste_fruits = ['banane', 'fraise', 'kiwi']
+result = 'fraise' in liste_fruits
+print(result)
+
+if liste_fruits:
+    print('la liste est complète')
+else:
+    print('Il n\'y a plus de fruits')
