@@ -11,11 +11,14 @@
 answer = 42
 golder_ratio = 1.61
 fullname = "Thibaut Poinloup"
+love_python = False
+license_agreement = None
 
 print("Salut" +" "+ fullname)
 
 if(True):
     print("J'aime Python")
 else:
-    love_python = False
     print(love_python)   
+
+print(license_agreement)
