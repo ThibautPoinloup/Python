@@ -2,12 +2,12 @@
 import random
 import math
 foo = 123
-# Les additions + et incrementation +=
+# Les additions + et incrementation += / le ++ n'existe pas en python
 foo = foo + 42
 foo += 42
 
 print(foo)
-# Les soustractions - et décrementation -=
+# Les soustractions - et décrementation -= / le -- n'existe pas en python
 foo = foo - 42
 foo -= 42
 
@@ -34,3 +34,24 @@ print(2**4)
 # racine de 2
 result = 10 ** (1 / 2)
 print(result)
+
+# Opérateur de comparaisons
+
+# Opérateur ==
+result = 1 == 1
+print(result)
+
+# Opérateurs de grandeurs 
+result = 123 < 42
+print(result)
+result = 123 <= 42
+print(result)
+result = 123 >= 42
+print(result)
+result = 123 >= 42
+print(result)
+
+# Opérateur d'innégalitée !=
+result = 123 != 42
+print(result)
+

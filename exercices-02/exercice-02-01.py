@@ -16,7 +16,7 @@ license_agreement = None
 
 print("Salut" +" "+ fullname)
 
-if(True):
+if(love_python == True):
     print("J'aime Python")
 else:
     print(love_python)   
