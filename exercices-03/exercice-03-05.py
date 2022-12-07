@@ -13,3 +13,16 @@
 
 # réponse 3.5
 
+day1 = 26.82
+day2 = 42.00
+day3 = 31.41
+day4 = 63.70
+day5 = 32.00
+days = 5
+print(days)
+
+total = day1 + day2 + day3 + day4 + day5
+print(total)
+
+average = total / days
+print(average)
