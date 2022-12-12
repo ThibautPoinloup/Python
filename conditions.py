@@ -95,9 +95,11 @@ print(f'{ticket = }')
 print(f'{vip = }')
 print(f'{registration = }')
 
+# Utilisation du ET/OU
 if (ticket or vip) and registration:
     print("access authorized !")
 else:
     print("access No authorized !")
 
 
+  
