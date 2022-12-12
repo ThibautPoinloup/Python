@@ -43,3 +43,25 @@ elif windows_closed and not electricity_off:
 else:
     print("windows are not closed")
     print("electricity is not closed")
+
+
+windows_closed = bool(random.randint(0, 1))
+electricity_off = bool(random.randint(0, 1))
+
+windows_closed = print(f'{windows_closed = }')
+electricity_off = print(f'{electricity_off = }')
+
+if windows_closed and electricity_off:
+    print("windows are closed !")
+    print("electricity is closed !")
+elif not windows_closed and electricity_off:
+    print("windows are not closed")
+    print("electricity is closed")
+elif windows_closed and not electricity_off:
+    print("windows are closed !")
+    print("electricity is not closed")
+else:
+    print("windows are not closed")
+    print("electricity is not closed")
+
+
