@@ -11,3 +11,7 @@ print(number)
 
 # réponse 4.4
 
+if number >=5 :
+    print("le nombre est supérieur ou égale à 5")
+else:
+    print("le nombre est inférieur à 5")    
