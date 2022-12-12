@@ -27,3 +27,19 @@ elif 1 > 0:
     print(f"vous avez {emails} nouveaux messages")
 else:
     print("vous n'avez pas de nouveaux messages")    
+
+windows_closed = True
+electricity_off = True
+
+if windows_closed and electricity_off:
+    print("windows are closed !")
+    print("electricity is closed !")
+elif not windows_closed and electricity_off:
+    print("windows are not closed")
+    print("electricity is closed")
+elif windows_closed and not electricity_off:
+    print("windows are closed !")
+    print("electricity is not closed")
+else:
+    print("windows are not closed")
+    print("electricity is not closed")
