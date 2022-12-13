@@ -68,3 +68,10 @@ print(text6)
 # supprimer un texte ou un mot 
 text6 = text6.replace('.', '')
 print(text6)
+
+# creation d'une liste avec le .split 
+list = text6.split()
+print(list)
+
+# trouver le nombre de mots qui y a dans la liste
+print(len(list))
