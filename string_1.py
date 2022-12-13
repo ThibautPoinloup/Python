@@ -39,3 +39,32 @@ def hello(name: str) -> None:
     """
     print(f"salut {name}")
 
+#definition d'une fonction utilisateur
+hello("toto")
+
+#Longueur de la string
+text6 = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nulla rerum dolor culpa eius porro reprehenderit tempore iure quia eaque, voluptatem nihil aliquid expedita esse numquam nisi. Distinctio ut temporibus dolorem!"
+number4 = len(text6)
+print(number4)
+
+# trouver la position de la string dans une autre string 
+number4 = text6.find("dolor") 
+print(number4)
+
+number4 = text6.find("dolor", number4 +1) 
+print(number4)
+
+# compte le nombre d'occurence d'une string (str) dans une autre string 
+number5 = text6.count("elit")
+print(number5)
+
+# Remplacer du texte ou un mot dans un string (Attention la variable reste inchanger)
+print(text6.replace('Lorem', 'foo'))
+
+# remplacer definitivement du texte ou un mot dans un string 
+text6 = text6.replace('dolor', 'Coucou')
+print(text6)
+
+# supprimer un texte ou un mot 
+text6 = text6.replace('.', '')
+print(text6)
