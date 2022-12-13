@@ -4,3 +4,5 @@
 my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.4
+my_list.pop(1)
+print(my_list)
