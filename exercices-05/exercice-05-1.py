@@ -4,5 +4,12 @@
 
 # réponse 5.1
 def multiplication(a: float, b: float) -> float:
-    return a * b
+    """Cette fonction est une multiplication
+    elle multiplie et donne un resultat à virgule
+    """
 
+    return a * b
+    
+    
+
+help(multiplication)
