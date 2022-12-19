@@ -95,3 +95,9 @@ print(result)
 result = not False
 print(result)
 
+#Opérateur in
+
+fruits =['abricot', 'baies', 'cerise']
+result = 'ananas' in fruits
+
+print(result)
