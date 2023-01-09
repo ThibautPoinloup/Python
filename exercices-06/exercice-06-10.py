@@ -5,6 +5,12 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.10
 
-somme_liste = my_list[0] + my_list[1] + my_list[2] + my_list[3] + my_list[4] + my_list[5] 
-result = somme_liste / 6
-print(result)
+somme = 0
+
+for item in my_list:
+    somme = somme + item
+    print(somme)
+
+moyenne = somme / len(my_list)
+#Pour avoir 2 chiffres après la virgule on utilise : '%2f' % (maVariable)
+print('%.2f' % (moyenne))

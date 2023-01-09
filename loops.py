@@ -41,5 +41,10 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61, 3.14]
 
 for item in my_list:
     if item == 3.14:
-        print(item)
-        
+        print(item)     
+
+#Liste a 2 dimentions
+for i in range(0, 10):
+    for j in range(0,10):
+        print(i, j)
+
