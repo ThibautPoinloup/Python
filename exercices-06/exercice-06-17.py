@@ -17,11 +17,11 @@ print(matrix)
 
 for line in range(0, size):
     if line == 3:
-        line = matrix[2]
+        line = matrix[3-1]
         print(line)
         for column in range(0, size):
             if column == 4:
-                column = line[3]
+                column = line[4-1]
                 print(column)
 
 # La matrice Générée de base

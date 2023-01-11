@@ -23,17 +23,24 @@ print(matrix)
 #     [56, 55, 98, 55, 96]
 # ]
 
-for lines in range(0, size):
-    index_lines = lines
-    line = row
-    for columns in range(0, size):
-        index_columns = columns
-        column = matrix
-        print(index_lines, index_columns)
-        print(column)
-        for i in column:
-            if i[0] < 50:
-                print(i[0])
-    
+
+for x in range(0, size):
+    for y in range(0, size):
+        for line in matrix:
+         for line in matrix:
+             for column in line:
+              if column<= 50: 
+                print(x,column) 
+
+
+  
+
+
+
+
+
+
+
+
 
 
