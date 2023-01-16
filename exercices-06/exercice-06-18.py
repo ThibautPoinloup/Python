@@ -30,7 +30,7 @@ for x in range(0, size):
          for line in matrix:
              for column in line:
               if column<= 50: 
-                print(x,column) 
+                print(x, y, column) 
 
 
   

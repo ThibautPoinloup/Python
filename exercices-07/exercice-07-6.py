@@ -5,3 +5,8 @@
 import random
 
 # réponse 7.6
+
+for r in range(0,101):
+    r = random.randint(1,10)
+    if r == 1 or r ==  10:
+        print(r)

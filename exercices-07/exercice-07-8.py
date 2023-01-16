@@ -6,3 +6,12 @@
 import random
 
 # réponse 7.8
+
+count = []
+
+for r in range(0, 101):
+    r = random.randint(1,10)
+    if r == 7:
+        count.append(r)
+
+print(len(count))
